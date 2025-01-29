@@ -1,0 +1,189 @@
+/*
+Theme Name:  Theme
+Theme URI: https://yourdomain.com/
+Author: Muhammad Abbas
+Author URI: https://yourdomain.com/
+Description: This WordPress theme is simple and user-friendly, with support for posts, pages, and widgets. It includes responsive design, easy customization options like background images 
+and colors, and basic SEO features. Perfect for creating clean, functional websites quickly!
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: personal-theme
+*/ 
+.contact {
+    padding: 60px 0;
+  }
+  .contact .info {
+    margin-bottom: 20px;
+  }
+  .contact .info div {
+    margin-bottom: 20px;
+    padding: 10px;
+    background: #f9f9f9;
+    border-radius: 5px;
+  }
+  .contact .info div h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .contact .info div i {
+    font-size: 20px;
+    color: #007bff;
+    margin-right: 10px;
+  }
+  
+/* About Section Styles */
+#about {
+    padding: 80px 0; /* More padding to give space */
+    background-color: #f8f9fa; /* Light background */
+  }
+  
+  #aboutme {
+    max-width: 1000px; /* Increased max-width for more space */
+    margin: 0 auto; /* Center the container */
+    text-align: center; /* Center everything in the container */
+    padding: 40px 20px; /* Padding around content */
+  }
+  
+  .about-title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+  }
+  
+  .about-content {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #555;
+    margin-top: 20px;
+    max-width: 800px; /* Limit content width */
+    margin-left: auto; /* Center content */
+    margin-right: auto; /* Center content */
+    padding: 0 15px; /* Padding for mobile responsiveness */
+  }
+  
+  .about-content p {
+    margin-bottom: 20px; /* Add space between paragraphs */
+  }
+  
+  /* Add mobile responsiveness */
+  @media (max-width: 768px) {
+    .about-title {
+      font-size: 30px; /* Adjust title size for smaller screens */
+    }
+  
+    .about-content {
+      font-size: 16px; /* Adjust content size for smaller screens */
+    }
+  }
+  
+/* Contact Section Styling */
+#contact {
+    padding: 100px 0; /* Add some space on top and bottom */
+    background-color: #f4f7fb; /* Light background */
+  }
+  
+  #contact .container {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: center; /* Vertically center */
+    align-items: center; /* Horizontally center */
+    text-align: center; /* Center the text */
+    max-width: 900px; /* Limit width */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 0 20px; /* Padding for better spacing */
+  }
+  
+  #contact h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  #contact p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 40px;
+  }
+  
+  /* Responsive Styling */
+  @media (max-width: 768px) {
+    #contact h2 {
+      font-size: 28px;
+    }
+  
+    #contact p {
+      font-size: 16px;
+    }
+  }
+  
+
+  /* Features Section Styling */
+#features {
+    background-color: #f4f7fb; /* Light background for the section */
+    padding: 60px 0;
+    text-align: center;
+  }
+  
+  #features h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 40px;
+  }
+  
+  #features .feature-item {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    text-align: center;
+  }
+  
+  #features .feature-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  #features .feature-item .feature-icon {
+    font-size: 40px;
+    color: #ff5722; /* You can change this color */
+    margin-bottom: 20px;
+  }
+  
+  #features .feature-item h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  #features .feature-item p {
+    font-size: 16px;
+    color: #777;
+    line-height: 1.5;
+  }
+  
+  /* Responsive Styling */
+  @media (max-width: 992px) {
+    #features .col-lg-3 {
+      width: 50%;
+      margin-bottom: 30px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    #features .col-lg-3 {
+      width: 100%;
+      margin-bottom: 30px;
+    }
+  }
+  
+
+
+  
